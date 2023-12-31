@@ -1,0 +1,17 @@
+{
+  "name": "monnom",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "verify": "aiken build && bun build.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "translucent-cardano": "^0.0.4"
+  }
+}
